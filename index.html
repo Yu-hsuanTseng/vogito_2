@@ -11,8 +11,11 @@
 <script src="js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <img src="img/cover.png" class="cover_set" draggable="false">
+<body style="align-items: center;">
+    <div style="width:300px;margin:0 auto;">
+        <img src="img/cover.png" class="cover_set" draggable="false">
+    </div>
+    <img src="img/shine.png" class="shine" style="visibility:hidden">
     <div class="suggest suggest_toy" style="visibility:hidden">
         <h1>玩具積木</h1>
         <h2>建議照射3分鐘</h2>
@@ -38,14 +41,13 @@
         <h2>建議照射30分鐘</h2>
     </div>
 
-    <div id="circle-list" >
-        <img src="img/shine.png" class="shine" style="visibility:hidden">
-        <div><button type="button" ><img src="img/doll.png" class="img_doll"></button></div>
-        <div><button type="button" ><img src="img/toy.png" class="img_toy" draggable="false"></button></div>
-        <div><button type="button" ><img src="img/cat.png" class="img_cat" draggable="false"></button></div>
-        <div><button type="button" ><img src="img/helmet.png" class="img_helmet" draggable="false"></button></div>
-        <div><button type="button" ><img src="img/leather.png" class="img_leather" draggable="false"></button></div>
-        <div><button type="button" ><img src="img/head.png" class="img_head" draggable="false"></button></div>
+    <div id="circle-list" style="text-align:center;" >
+        <div><button type="button" ><img src="img/doll.png" class="img_all img_doll"></button></div>
+        <div><button type="button" ><img src="img/toy.png" class="img_all img_toy" draggable="false"></button></div>
+        <div><button type="button" ><img src="img/cat.png" class="img_all img_cat" draggable="false"></button></div>
+        <div><button type="button" ><img src="img/helmet.png" class="img_all img_helmet" draggable="false"></button></div>
+        <div><button type="button" ><img src="img/leather.png" class="img_all img_leather" draggable="false"></button></div>
+        <div><button type="button" ><img src="img/head.png" class="img_all img_head" draggable="false"></button></div>
     </div>
 
 </body>
