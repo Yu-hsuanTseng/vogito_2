@@ -4,11 +4,7 @@
 
 @media (min-width: 320px) { 
     .shine {
-        user-select: none;
-        width: 40%;
-        position:fixed;
-        top: 70%;
-        left: 31%;
+        width: 30%;
     }
     #circle-list{
     position:absolute;
@@ -36,15 +32,16 @@
         background-color: #1e94d4;
         background:rgba(30,148,212,0.7);
     }
+    @keyframes fade {
+        0% {top: 0%;}
+        50% {top: 2%}
+        100% {top: 0%;}
+    }
 }
 
 @media (min-width: 616px) { 
     .shine {
-        user-select: none;
-        width: 29%;
-        position:fixed;
-        top: 66%;
-        left: 34%;
+        width: 25%;
     }
     #circle-list{
         position:absolute;
@@ -72,10 +69,16 @@
         background-color: #1e94d4;
         background:rgba(30,148,212,0.7);
     }
+    @keyframes fade {
+        0% {top: 0%;}
+        50% {top: 4%}
+        100% {top: 0%;}
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
     #circle-list{
         position:absolute;
         margin-left: 25%;
@@ -90,17 +93,18 @@
         margin-left: 32%;
         user-select: none;
     }
+    @keyframes fade {
+        0% {top: 0%;}
+        50% {top: 8%}
+        100% {top: 0%;}
+    }
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1024px) {
     .shine {
-        user-select: none;
-        width: 18%;
-        position:fixed;
-        top: 65%;
-        left: 40%;
+        width: 25%;
     }
     #circle-list{
     position:absolute;
@@ -128,17 +132,15 @@
         background-color: #1e94d4;
         background:rgba(30,148,212,0.7);
     }
+    @keyframes fade {
+        0% {top: 0%;}
+        50% {top: 17.5%}
+        100% {top: 0%;}
+    }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .shine {
-        user-select: none;
-        width: 15%;
-        position:fixed;
-        top: 64%;
-        left: 42%;
-    }
     #circle-list{
     position:absolute;
     margin-left: 35%;
@@ -165,10 +167,12 @@
         background-color: #1e94d4;
         background:rgba(30,148,212,0.7);
     }
+    @keyframes fade {
+        0% {top: 0%;}
+        50% {top: 35%}
+        100% {top: 0%;}
+    }
 }
-
-
-
 
 
 
@@ -182,11 +186,7 @@ button {
 
 
 
-@keyframes fade {
-    0% {top: 0%;}
-    50% {top: 35%}
-    100% {top: 0%;}
-}
+
 
 @keyframes imgFade {
     0% {visibility:hidden;}
@@ -234,4 +234,11 @@ button {
     font-family:arial;
     width:30%;
     text-align:center;
+}
+
+.shine {
+    user-select: none;
+    position:absolute;
+    margin-top: 55%;
+    margin-left: 10%;
 }
