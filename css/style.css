@@ -5,7 +5,6 @@
 @media (min-width: 320px) { 
     .shine {width: 30%;}
     #circle-list{margin-left: 20%;}
-    .img_all {width: 300%;}
     .suggest {
         color: white;
         padding: 3% 2%;
@@ -124,6 +123,7 @@ button {
 
 .img_doll, .img_toy, .img_cat, .img_helmet , .img_leather, .img_head {
     user-select: none;
+    width: 300%;
 }
 
 
