@@ -6,7 +6,7 @@
     .shine {
         user-select: none;
         width: 40%;
-        position:absolute;
+        position:fixed;
         top: 70%;
         left: 31%;
     }
@@ -42,7 +42,7 @@
     .shine {
         user-select: none;
         width: 29%;
-        position:absolute;
+        position:fixed;
         top: 66%;
         left: 34%;
     }
@@ -99,7 +99,7 @@
     .shine {
         user-select: none;
         width: 18%;
-        position:absolute;
+        position:fixed;
         top: 65%;
         left: 40%;
     }
@@ -136,7 +136,7 @@
     .shine {
         user-select: none;
         width: 15%;
-        position:absolute;
+        position:fixed;
         top: 64%;
         left: 42%;
     }
