@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+
+
+@media (min-width: 320px) { 
+    .shine {
+        user-select: none;
+        width: 40%;
+        position:fixed;
+        top: 70%;
+        left: 31%;
+    }
+    #circle-list{
+    position:absolute;
+    margin-left: 16%;
+	list-style:none;
+	width:140%;
+    }
+    .cover_set {
+        width: 45%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 26%;
+        user-select: none;
+    }
+    .suggest {
+        color: white;
+        padding: 3% 2%;
+        font-size: 60%;
+        position: absolute;
+        top: 36%;
+        left: 40%;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #1e94d4;
+        background:rgba(30,148,212,0.7);
+    }
+}
+
+@media (min-width: 616px) { 
+    .shine {
+        user-select: none;
+        width: 29%;
+        position:fixed;
+        top: 66%;
+        left: 34%;
+    }
+    #circle-list{
+        position:absolute;
+        margin-left: 20%;
+        list-style:none;
+        width:120%;
+    }
+    .cover_set {
+        width: 35%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 30%;
+        user-select: none;
+    }
+    .suggest {
+        color: white;
+        padding: 3% 2%;
+        font-size: 60%;
+        position: absolute;
+        top: 34%;
+        left: 40%;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #1e94d4;
+        background:rgba(30,148,212,0.7);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #circle-list{
+        position:absolute;
+        margin-left: 25%;
+        list-style:none;
+        width:100%;
+    }
+    .cover_set {
+        width: 30%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 32%;
+        user-select: none;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 1024px) {
+    .shine {
+        user-select: none;
+        width: 18%;
+        position:fixed;
+        top: 65%;
+        left: 40%;
+    }
+    #circle-list{
+    position:absolute;
+    margin-left: 31%;
+	list-style:none;
+	width:75%;
+    }
+    .cover_set {
+        width: 22%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 19%;
+        margin-left: 37%;
+        user-select: none;
+    }
+    .suggest {
+        color: white;
+        padding: 2% 1.5%;
+        font-size: 60%;
+        position: absolute;
+        top: 34.5%;
+        left: 42.5%;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #1e94d4;
+        background:rgba(30,148,212,0.7);
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .shine {
+        user-select: none;
+        width: 15%;
+        position:fixed;
+        top: 64%;
+        left: 42%;
+    }
+    #circle-list{
+    position:absolute;
+    margin-left: 35%;
+	list-style:none;
+	width:60%;
+    }
+    .cover_set {
+        width: 17%;
+        z-index: 1;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 40%;
+        user-select: none;
+    }
+    .suggest {
+        color: white;
+        padding: 2% 1.5%;
+        font-size: 60%;
+        position: absolute;
+        top: 34%;
+        left: 44%;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #1e94d4;
+        background:rgba(30,148,212,0.7);
+    }
+}
+
+
+
+
+
+
+button {
+    border: 0ch;
+    background-color: transparent;
+    outline:none;
+    cursor: pointer;
+}
+
+
+
+
+@keyframes fade {
+    0% {top: 0%;}
+    50% {top: 35%}
+    100% {top: 0%;}
+}
+
+@keyframes imgFade {
+    0% {visibility:hidden;}
+    50% {visibility:visible;}
+    100% {visibility:hidden;}
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes Imgfadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+
+
+
+.suggest_toy {z-index: 2;}
+.suggest_doll{z-index: 3;}
+.suggest_helmet {z-index: 4;}
+.suggest_cat {z-index: 5;}
+.suggest_leather {z-index: 6;} 
+.suggest_head {z-index: 7;}
+
+
+
+.img_doll, .img_toy, .img_cat, .img_helmet , .img_leather, .img_head {
+    user-select: none;
+    width: 90%;
+}
+
+
+
+
+
+			
+#circle-list div
+{
+    display:block;
+    position:absolute;
+    font-family:arial;
+    width:30%;
+    text-align:center;
+}
