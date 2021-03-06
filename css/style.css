@@ -5,7 +5,6 @@
 @media (min-width: 320px) { 
     .shine {width: 30%;}
     #circle-list{margin-left: 20%;}
-    .img_all {width: 300%;}
     .suggest {
         color: white;
         padding: 3% 2%;
@@ -22,7 +21,6 @@
 
 @media (min-width: 616px) { 
     #circle-list{margin-left: 20%;}
-    .img_all {width: 300%;}
     .suggest {
         color: white;
         padding: 3% 2%;
@@ -39,13 +37,11 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    .img_all {width: 250%;}
     #circle-list{margin-left: 25%;}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 1024px) {
-    .img_all {width: 200%;}
     .shine {width: 25%;}
     #circle-list{margin-left: 31%;}
     .suggest {
@@ -64,7 +60,6 @@
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    .img_all {width: 150%;}
     #circle-list{margin-left: 35%;}
     .suggest {
         color: white;
@@ -127,6 +122,7 @@ button {
 
 .img_doll, .img_toy, .img_cat, .img_helmet , .img_leather, .img_head {
     user-select: none;
+    width: 150%;
 }
 
 
